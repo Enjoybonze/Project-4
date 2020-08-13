@@ -651,7 +651,15 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #010007!important;
+}
+article > div > p {
+    color: white!important;
+    font-weight: 900!important;
+}
+article > div > ul > li > a {
+    color: white!important;
+    font-weight: 900!important;
 }
 
 .container {
@@ -781,7 +789,7 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
@@ -1032,6 +1040,19 @@ h4 {
         width: 180px;
         height: 320px;
     }
+   .social {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    }
+    .text-center {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .text-center2 {
+        margin: 0!important;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1045,4 +1066,7 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+.image-resize-mode {
+    width: 200px;
 }
