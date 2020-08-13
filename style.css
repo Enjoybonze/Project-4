@@ -524,18 +524,15 @@ button {
 .scrollToTop span {
     margin-top: 6px;
 }
-
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
 }
-
 a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
 }
-
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
@@ -553,29 +550,24 @@ a[data-lightbox]:hover::before {
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
-
 a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
-
 #lightbox-modal {
     display: flex;
     align-items: center;
 }
-
 #lightbox-modal .modal-dialog {
     width: 90%;
     max-width: 900px;
     margin: 0 auto 0;
 }
-
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
     margin: 0 auto;
 }
-
 .lightbox-caption {
     padding: 20px;
     color: #FFF;
@@ -832,11 +824,11 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img/atlanta_made_sign.jpg");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/atlanta_made_sign_orange.jpg");
 }
 
 @media (max-width: 1024px) {
